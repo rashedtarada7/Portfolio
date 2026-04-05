@@ -64,11 +64,6 @@ img {
   padding: 0 1.5rem;
 }
 
-.my-image{
-  max-width: 20%;
-}
-
-
 
 .navbar {
   position: sticky;
@@ -590,6 +585,14 @@ text-align: center;
 
 
 @media (max-width: 768px) {
+
+  .my-image{
+    max-width: 40%;
+  }
+
+  .nav-logo{
+    max-width: 2rem;
+  }
 
   .hero-stats {
     gap: 1.75rem;
